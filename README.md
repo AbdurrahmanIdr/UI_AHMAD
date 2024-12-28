@@ -94,7 +94,6 @@ const handleSubmit = async (e) => {
 - Error Handling: Manages network, validation, and conflict errors.  
 - Modular: Can be reused in multiple forms.  
 
-Let me know if you need any further adjustments!
 
 Here are the scripts to handle **Edit Profile**, **Change Password**, and **Login** API requests using JavaScript without UI elements:  
 
@@ -315,5 +314,3 @@ const handleLogin = async (e) => {
 
 4. **Dynamic Inputs**:  
    Collects form data dynamically without tying it to specific UI elements.  
-
-Let me know if more refinements are needed!
