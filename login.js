@@ -6,7 +6,7 @@ export async function loginUser(formData, setError, setLoading) {
 
   try {
     const response = await axios.post(
-      'https://your-api-url.com/auth/login',
+      'https://entomological-society-backend.onrender.com/auth/login',
       formData,
       {
         headers: {
