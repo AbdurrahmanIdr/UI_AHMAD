@@ -6,7 +6,7 @@ export async function editProfile(username, formData, setError, setLoading) {
 
   try {
     const response = await axios.put(
-      `https://your-api-url.com/auth/edit_profile/${username}/`,
+      `https://entomological-society-backend.onrender.com/auth/edit_profile/${username}/`,
       formData,
       {
         headers: {
