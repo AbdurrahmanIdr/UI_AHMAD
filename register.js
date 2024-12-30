@@ -5,7 +5,7 @@ export async function registerUser(formData, setError, setLoading) {
   setLoading(true); // Show loading state
 
   try {
-    const response = await axios.post('https://your-api-url.com/auth/register', formData, {
+    const response = await axios.post('https://entomological-society-backend.onrender.com/auth/register', formData, {
       headers: {
         'Content-Type': 'application/json',
       },
