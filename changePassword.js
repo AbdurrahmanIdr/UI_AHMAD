@@ -6,7 +6,7 @@ export async function changePassword(username, formData, setError, setLoading) {
 
   try {
     const response = await axios.put(
-      `https://your-api-url.com/auth/change_password/${username}`,
+      `https://entomological-society-backend.onrender.com/auth/change_password/${username}`,
       formData,
       {
         headers: {
